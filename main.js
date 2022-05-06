@@ -4,8 +4,8 @@ const btnStart = document.querySelector(".main")
 const btnReset = document.querySelector(".reset")
 const div = document.querySelector(".time div")
 
-let ms = 5555
-let min = 58
+let ms = 0
+let min = 0
 let hours = 0
 let days = 0
 let active = false
@@ -75,5 +75,3 @@ const reset = () => {
 btnStart.addEventListener('click', timer)
 btnReset.addEventListener('click', reset)
 
-// dodać godziny i dni
-// upload do GH
